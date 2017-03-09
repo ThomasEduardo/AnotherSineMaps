@@ -44,7 +44,7 @@ public class DetalharSinesAsyncTask extends AsyncTask<String, Void, Sine> {
             return sine;
         }
 
-        return sine;
+
 
     }
 

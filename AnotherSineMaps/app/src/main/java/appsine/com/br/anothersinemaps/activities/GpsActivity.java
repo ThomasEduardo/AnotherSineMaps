@@ -25,9 +25,9 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import java.util.ArrayList;
 import java.util.concurrent.ExecutionException;
 
-import appsine.com.br.sinemaps.R;
-import appsine.com.br.sinemaps.asynctask.GetSinesAsyncTask;
-import appsine.com.br.sinemaps.entidades.Sine;
+import appsine.com.br.anothersinemaps.R;
+import appsine.com.br.anothersinemaps.asynctask.GetSinesAsyncTask;
+import appsine.com.br.anothersinemaps.entidades.Sine;
 
 public class GpsActivity extends FragmentActivity implements OnMapReadyCallback, LocationListener, GoogleMap.OnMarkerClickListener {
 

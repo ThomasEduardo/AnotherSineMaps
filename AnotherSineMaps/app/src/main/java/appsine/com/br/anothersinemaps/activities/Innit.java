@@ -9,7 +9,7 @@ import appsine.com.br.anothersinemaps.R;
 import appsine.com.br.anothersinemaps.entidades.Sine;
 
 
-public class Splash extends Activity implements Runnable {
+public class Innit extends Activity implements Runnable {
 
 
 
@@ -20,13 +20,13 @@ public class Splash extends Activity implements Runnable {
 
 
         Handler handler = new Handler();
-        handler.postDelayed (this, 60000);
+        handler.postDelayed (this, 10000);
 
     }
-//
+
     @Override
     public void run() {
-        Intent i = new Intent(this, Sine.activity_gps.class);
+        Intent i = new Intent(this,MainActivity.class);
         startActivity(i);
         finish();
     }}

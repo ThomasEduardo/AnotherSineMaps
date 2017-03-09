@@ -3,7 +3,7 @@
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-    tools:context="appsine.com.br.anothersinemaps.activities.Splash">
+    tools:context="appsine.com.br.anothersinemaps.activities.Innit">
     android:background="@color/fundo">
 
 
